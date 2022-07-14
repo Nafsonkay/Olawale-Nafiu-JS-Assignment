@@ -19,7 +19,6 @@ function sumOfNumbers(arrayOfNumbers) {
     sum+= arrayOfNumbers[i];
   }
   return sum;
-    //return arrayOfNumbers.length;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -33,18 +32,15 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  let count = 0;
-  for (let i = 0; i < arrayOfNumbers.length; i++) {
-    if (i === 0 || i % 2 !==0) {
-      count;
+  var count = 0;
+  for (let i = 0; i < arrayOfNumbers.length; i++)
+    if (arrayOfNumbers [i] % 2 ===0) {
+      count++;
     }
-  else{
-    count +=1;
-    }
+    return count;
   }
-  return count;
     //return arrayOfNumbers.length;
-}
+  
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
@@ -63,7 +59,6 @@ assignment.countEvenNumbers = countEvenNumbers;
  */
 //function celsiusToFahrenheit(arrayOfNumbers) {
    // return arrayOfNumbers;
-}
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
